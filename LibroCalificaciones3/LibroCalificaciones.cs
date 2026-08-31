@@ -10,7 +10,7 @@ namespace LibroCalificaciones3
 
         public LibroCalificaciones(string nombre)
         {
-            nombreCurso = nombre;
+            NombreCurso = nombre;
         }
 
         public string NombreCurso

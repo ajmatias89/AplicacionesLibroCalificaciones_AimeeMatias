@@ -11,6 +11,18 @@
 
             Console.WriteLine("\nEscriba el nombre del curso: ");
             string elNombreCurso = Console.ReadLine();
+
+            while(string.IsNullOrEmpty(elNombreCurso))
+            {
+                Console.WriteLine("El nombre del curso no puede estar vacío. Por favor, escriba un nombre válido: ");
+                elNombreCurso = Console.ReadLine();
+                
+                if(string.IsNullOrEmpty(elNombreCurso))
+                {
+                    Console.WriteLine("El nombre del curso está vacío. Por favor, escriba un nombre válido: ");
+                    elNombreCurso = Console.ReadLine();
+                }
+            }
             myLibro.NombreCurso = elNombreCurso;
             Console.WriteLine("El nombre del curso es: {0}", myLibro.NombreCurso);
         }
