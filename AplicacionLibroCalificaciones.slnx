@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="AplicacionLibroCalificaciones.csproj" />
+  <Project Path="LibroCalificaciones2/LibroCalificaciones2.csproj" />
+  <Project Path="LibroCalificaciones3/LibroCalificaciones3.csproj" />
 </Solution>
